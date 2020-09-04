@@ -1,0 +1,13 @@
+
+    Data encapsulation: Encapsulation is the process of wrapping an internet data packet inside of another packet. You can think of this as the outer tunnel structure, like putting a letter inside of an envelope for sending.
+    Data encryption: However, just having a tunnel isn't enough. Encryption scrambles and locks the contents of your data, so that it can't be open and read by anyone except the intended receiver.
+
+While a VPN tunnel can be created without encryption, VPN tunnels are not generally considered secure unless they're protected with some type of encryption. This is why you'll often hear VPNs described as an encrypted connection. 
+
+ Internet Protocol Security
+
+IPsec is suite of security protocols used to authenticate and encrypt data over VPN networks. It includes standards for establishing a mutual connection between two computers and the exchange of cryptographic keys. The keys encrypt the data, so only the computers involved in the exchange can unlock and view the data. 
+
+ Internet Key Exchange version 2
+
+The IKEv2 is a security association protocol developed by Microsoft and Cisco used to set up an authenticated and encrypted association between two computers. IKEv2 is often paired with the IPsec security suite and is referred to as IKEv2/IPsec. Together, it provides up to 256-bit encryption and robust cryptographic keys. 
