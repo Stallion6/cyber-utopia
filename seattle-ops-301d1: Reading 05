@@ -1,0 +1,15 @@
+A DNS server is a computer server that contains a database of public IP addresses and their associated hostnames, and in most cases serves to resolve, or translate, those names to IP addresses as requested. 
+
+Nameservers store DNS records which are the actual file that says “this domain” maps to “this IP address”.
+
+When you query a domain name your first step won’t actually be at the root name servers. Instead, your browser will ask your local resolving name server if they have the DNS records for that domain cached. 
+
+Nameservers are called the root nameservers and instead of storing every domain ever, they store the locations of the TLD (top level domains). 
+
+A DNS Resolver: Receives the request to resolve the domain name with the IP address. This server does the grunt work in figuring out where the site you want to go actually resides on the internet.
+
+A Root Server: The root server receives the first request, and returns a result to let the DNS resolver know what the address of the Top Level Domain (TLD) server that stores the information about the site. A top level domain is the equivalent of the .com or .net portion of the domain name you entered into the address bar.
+
+A TLD Server: The DNS resolver then queries this server, which will return the Authoritative Name Server where the site is actually returned.
+
+An Authoritative Name Server: Finally, the DNS resolver queries this server to learn the actual IP address of the website you're trying to deliver.
