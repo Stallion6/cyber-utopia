@@ -1,14 +1,35 @@
 #!/bin/bash
 
-# Script:                       Ops 301 Ops Chall Class-05
-# Author:                       
-# Date of latest revision:      
-# Purpose:                      Demo
+#Script:                   Ops 301 Ops Chall Class 05
+#Author:                   Bruce Martin
+#Date of Latest Revision:  09/06/200
 
-# How to view a file's contents
+#Declaration of Purpose:  Clearing Log Files
 
-cat testfile.txt
 
-# How to clear a file's contents
+#Declaration of Variables
 
-cat /dev/null > testfile.txt
+#Declaration of Functions
+
+
+#Main
+
+cd /var/log
+echo "Contents Before"
+cat syslog
+cd /var/log
+cat dev/null > syslog
+echo "Contents Afterwards"
+cat syslog
+
+cd /var/log
+echo "Contents Before"
+cat wtmp
+cd /var/log
+cat dev/null > wtmp
+echo "Contents Afterwards"
+cat wtmp
+
+
+#End
+
