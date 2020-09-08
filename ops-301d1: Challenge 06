@@ -1,0 +1,30 @@
+#Script Name: OpsChallenge06
+#Author: Bruce W. Martin
+#Last Revision: 09/0720
+#Purpose: List Specific System Info
+
+import os 
+
+#Declaration of Variables
+
+var_1 = "user name"
+var_2 = "IP Address"
+var_3 = "processor"
+
+#Declaration of Functions
+
+#Main
+
+print(var_1)
+os.system("whoami")
+input()
+
+print(var_2)
+os.system("ip a")
+input()
+
+print(var_3)
+os.system("lshw -short")
+input()
+
+#End
