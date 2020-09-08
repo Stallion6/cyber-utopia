@@ -1,0 +1,6 @@
+Bruce Martin
+7 September 2020
+
+Microsoft designed Active Directory to store and manage information about objects and users on a network. In a way, it can be thought of as a telephone directory for network resources—when an IT team wants to access information about a computer, server, hardware resource, shared file or folder, or group of users, they look it up in AD.
+Active Directory is a database management system. To organize its data, it uses a hierarchical structure made up of objects, domains, trees, and forests. Understanding these components of Active Directory structure is vital to effective AD management and monitoring.
+When properly monitored and managed, Active Directory is an invaluable tool for network administrators, especially as an organization grows larger and begins adding more users and resources to their networks. It’s also enormously helpful in demonstrating industry compliance.
