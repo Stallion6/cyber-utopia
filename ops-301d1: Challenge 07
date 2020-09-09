@@ -1,0 +1,41 @@
+#Script Name: OpsChallenge07
+#Author: Bruce W. Martin
+#Last Revision: 09/08/20
+#Purpose: Generate Directory, Sub-Directory and Files
+
+# Import libraries
+
+import os
+
+# Declaration of variables
+
+### Read user input here into a variable
+
+user_input = input("Type name of the directory:")
+
+
+# Declaration of functions
+
+### Declare a function here
+
+def best_function(dir_name):
+
+    for (root, dirs, files) in os.walk("/home/osboxes/" + dir_name):
+    
+        ### Add a print command here to print ==root==
+        print("==root==")
+        print(root)
+        ### Add a print command here to print ==dirs==
+        print("==dirs==")
+        print(dirs)
+        ### Add a print command here to print ==files==
+        print("==files==")
+        print(files)
+
+# Main
+
+### Pass the variable into the function here
+
+best_function(user_input)
+
+# End
