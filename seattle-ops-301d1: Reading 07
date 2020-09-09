@@ -1,0 +1,19 @@
+Bruce Martin
+8 September 2020
+
+Segmentation divides a network into sub networks.  The intent is to improve security and performance.
+
+Segmentation controls how fraffic flows within the network.  You can limit the flow by traffic type, source or destinaition.
+
+How you segment the network is called segmentation policy.
+
+Some traditional forms of enforcing segmentation include firewalls, Access Control List (ACL) and Virtual Local Area Network (VLAN).
+
+Benefits of network segmentation include:  Improving operational performance, limiting cyberattack damage, Protecting vulnerable devices and reducing the scope of compliance.
+
+Let's discuss Trust Assumption and Zero Trust Response:
+
+Trust Assumption: Individuals within the perimeter are assumed to be trustworthy and therefore are not a threat.  Thus, they were subject to few restrictions on their ability to access information.
+
+Zero Trust Response:  Zero Trust assumes that nobody is trustworthy by default, even those already inside the network perimeter.
+
