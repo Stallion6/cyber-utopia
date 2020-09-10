@@ -1,0 +1,21 @@
+Bruce Martin
+9 September 2020
+
+"AD DS is the most deployed component of AD. In a way, AD DS has become synonymous with AD, and when people speak about AD, they’re usually referring to AD DS. If they want to refer to any of the other four services, they explicitly mention that service by name.
+AD DS is essentially a store of information just like a telephone directory. The table below shows the fields of information in a telephone directory.  Think of each row in a telephone directory as a distinct object with attributes like last name, first name, address, and phone number. In an AD environment, these distinct objects can be users, computers, groups, printers, and more. Each of these objects have characteristics or attributes; both the objects and their attributes are stored in AD.  AD is extensible, i.e., we can add objects and object attributes to it as needed."
+
+There are to two sides we need to consider of its structure:
+
+	The logical side:  This is a hierarchy of objects such as user, computers, groups and organizational units.
+	The physical side:  servers that provide AD services and contain all directory information.
+  
+A workgroup is a peer to peer with no central authentication.  Each computer in a workgroup functions as both a client and a server.
+In larger networks, there is a need to setup a client-server network.  In Windows, this is achieved by setting up domains.
+Organizational Units (OUs)
+
+"When you deploy Active Directory (AD) in your company, you may decide to create multiple organizational units (OUs) within your domain. An OU is a container within your domain that holds users, groups, computers, and other objects. You use an OU to store similar objects, making it easy to access and administer them. An OU will always be contained within a single domain."
+
+Benefits of using OUs:
+	1.  Manage objects efficiently.
+	2.  Deploy Group Policy Object (GPO) settings.
+	3.  Delegate Administrative Control.
